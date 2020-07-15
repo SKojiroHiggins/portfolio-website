@@ -25,10 +25,10 @@ body 							{ margin-top:40px; }
 #sidebar-nav 					{  }
 #sidebar-nav ul 				{ list-style:none; padding-left:0; }
 #sidebar-nav li 				{  }
-#sidebar-nav a 					{ background:#428bca; color:#FFF; display:block; margin-bottom:10px; padding:20px; text-transform:uppercase;
+#sidebar-nav a 					{ background:#B9594B; color:#FFF; display:block; margin-bottom:10px; padding:20px; text-transform:uppercase;
 	border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;
 }
-	#sidebar-nav a:hover 		{ background:#3276b1; text-decoration:none; }
+	#sidebar-nav a:hover 		{ background:#95453a; text-decoration:none; }
 
 /* CONTENT
 ============================================================================= */
@@ -95,7 +95,7 @@ body 							{ margin-top:40px; }
   }
   
   #menuToggle a:hover {
-	color: tomato;
+	color: #B9594B;
   }
   
   #menuToggle input {
@@ -191,6 +191,7 @@ body 							{ margin-top:40px; }
 
 	.personal-description {
 		font-size: 3rem;
+		color: #95453a;
 	}
 
 /* Flip Card */
@@ -241,7 +242,7 @@ body 							{ margin-top:40px; }
   }
   
   .flip-card-back {
-	background-color: #2980b9;
+	background-color: #B9594B;
 	color: white;
 	transform: rotateY(180deg);
 	padding: 20px;
