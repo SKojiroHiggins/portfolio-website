@@ -1,6 +1,6 @@
 /* BASE
 ============================================================================= */
-@import url(http://fonts.googleapis.com/css?family=Offside);
+@import url(https://fonts.googleapis.com/css?family=Offside);
 html 							{ overflow-y:scroll; }
 body 							{ margin-top:40px; }
 #index-page 					{ background:url(../img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
