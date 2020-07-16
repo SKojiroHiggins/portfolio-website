@@ -2,18 +2,21 @@
 ============================================================================= */
 @import url(https://fonts.googleapis.com/css?family=Offside);
 html 							{ overflow-y:scroll; }
-body 							{ margin-top:40px; }
+body 							{ margin-top:0px; }
 #index-page 					{ background:url(../img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
 #about-page						{ background:url(../img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed}
 
 /* HEADER
 ============================================================================= */
-#header 						{ margin-bottom:50px; }
+#header 						{ margin:0px 0 50px 0; }
 
 	/* logo */
 	#logo 						{ color:#FFF; font-family:'Offside'; font-size:80px; margin-bottom:50px; margin-top:50px; }
 	#logo span 					{ display:inline-block; }
 
+.header-portfolio {
+	margin-top: 40px !important;
+}
 /* MAIN NAV
 ============================================================================= */
 #main-nav 						{ margin-bottom:30px; }
@@ -177,8 +180,10 @@ body 							{ margin-top:40px; }
 		animation-delay:1s; 
 		-moz-animation-delay:1s; 
 		-webkit-animation-delay:1s;
-		padding: 0 0 0 200px ;
+		margin: 0 0 0 200px ;
 		/* border-radius: 50%; */
+		width: 500px;
+		height: 500px;
 	}
 
 	.about-container {
@@ -249,5 +254,18 @@ body 							{ margin-top:40px; }
   }
 
   .profile-card-button {
-	  width: 100px;
+		width: 100px !important;
+	  	background: white;
+		border: black solid 1px;
+		padding: 10px 0;
+		text-decoration: none !important;
+  }
+
+  .profile-card-button:hover {
+		background-color: #cdcdcd;
+		transition: .3s;
+  }
+
+  .profile-card-button:active {
+	  border: none;
   }
