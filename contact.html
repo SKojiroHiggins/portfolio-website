@@ -21,7 +21,7 @@
 </head>
 
 <body id="about-page">
-    <nav classname="hamburger" role="navigation">
+    <nav class="hamburger" role="navigation">
         <div id="menuToggle">
             <input type="checkbox" />
             <span class="first-span"></span>
@@ -29,16 +29,19 @@
             <span class="third-span"></span>
             <ul id="menu">
                 <li>
-                    <a className={mainPageClass} href="/index.html">Home</a>
+                    <a href="/index.html">Home</a>
                 </li>
                 <li>
-                    <a className={gamingPageClass} href="/about.html">About</a>
+                    <a href="/about.html">About</a>
                 </li>
                 <li>
-                    <a className={sciencePageClass} href="/portfolio.html">Portfolio</Link>
+                    <a href="/portfolio.html">Portfolio</a>
                 </li>
                 <li>
-                    <a className={spacePageClass} href="/contact.html">Contact</Link>
+                    <a href="/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="/img/resume.pdf" target="blank">Resume</a>
                 </li>
             </ul>
         </div>
@@ -57,24 +60,42 @@
                     <span class="de animated bounceInDown about-animated">a</span>
                     <span class="dn animated bounceInDown about-animated">c</span>
                     <span class="de animated bounceInDown about-animated">t</span>
-
-
-                    <img id="profile-photo" class="animated bounceInUp" src="https://lorempixel.com/500/500/people">
-
             </div>
         </div>
 
-        <div id="main" class="row">
 
 
-            <div id="content" class="animated bounceInUp col-sm-8 text-center">
-                <p class="personal-description">Fueled by passion and the desire for personal growth everyday, Kojiro is
-                    a Software Developer who... Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, atque
-                    maxime dicta eligendi delectus adipisci dolore illum aut vitae error nisi, quae, perspiciatis eaque
-                    repellat alias minima. Ab, perspiciatis totam.</p>
+        <div class="auth-inner animated bounceInUp col-sm-8 contact-content">
+            <form>
+                <h3 class="text-center">Contact me through email, phone, or by filling out the form below. I will personally respond as soon as possible.</h3>
+                <p class="text-center">Email: skylerkhiggins@gmail.com</p>
+                <p class="text-center">Phone: 980-202-9533</p>
+                <p class="text-center">LinkedIn: <a href="https://www.linkedin.com/in/skyler-higgins/" target="blank">linkedin.com/in/skyler-higgins</a></p>
+                <p class="text-center">GitHub: <a href="https://github.com/SKojiroHiggins" target="blank">github.com/SKojiroHiggins</a></p>
 
-            </div>
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your name" />
+                </div>
+
+                <div class="form-group">
+                    <label>Email address</label>
+                    <input type="email" class="form-control" placeholder="Your email" />
+                </div>
+
+                <div class="form-group">
+                    <label>Comment</label>
+                    <textarea type="password" class="form-control contact-comment"
+                        placeholder="Your comment here"></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-block">
+                    Submit
+                </button>
+            </form>
         </div>
+
     </div>
     </div>
 
