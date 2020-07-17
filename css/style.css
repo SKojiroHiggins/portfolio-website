@@ -327,6 +327,12 @@ body {
 	margin-top: 100px;
 }
 
+.updated {
+	color: white;
+	margin-left: 85%;
+	animation-delay: 2s;
+}
+
 /* About Page */
 
 /* profile photo */
@@ -520,3 +526,4 @@ h3, label {
 	text-align: center;
 	padding: 1px;
 }
+
