@@ -15,6 +15,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+
 }
 
 #about-page {
@@ -71,7 +72,7 @@ body {
 #sidebar-nav li {}
 
 #sidebar-nav a {
-	background: #B9594B;
+	background: #2079c7;
 	color: #FFF;
 	display: block;
 	margin-bottom: 10px;
@@ -83,7 +84,7 @@ body {
 }
 
 #sidebar-nav a:hover {
-	background: #95453a;
+	background: #16548b;
 	text-decoration: none;
 }
 
@@ -246,7 +247,7 @@ body {
 }
 
 #menuToggle a:hover {
-	color: #B9594B;
+	color: #2079c7;
 }
 
 #menuToggle input {
@@ -333,6 +334,36 @@ body {
 	animation-delay: 2s;
 }
 
+.index-card {
+	background-color: transparent;
+	width: 226px;
+	height: 226px;
+	perspective: 1000px;
+	animation-delay: 10s !important;
+	background-color: #2079c7;
+	color: white;
+}
+
+.index-card-animation {
+	animation-delay: 10s !important;
+	-webkit-animation-delay: 10s !important;
+}
+
+.index-card-about {
+	font-size: 2rem;
+	padding: 25px;
+}
+
+@media (max-width: 767px) {
+	.index-img {
+		margin-bottom: 20px;
+	}
+	
+	#logo {
+		font-size: 5rem !important;
+	}
+
+}
 /* About Page */
 
 /* profile photo */
@@ -341,14 +372,16 @@ body {
 	animation-delay: 1s;
 	-moz-animation-delay: 1s;
 	-webkit-animation-delay: 1s;
-	margin: 0 0 0 200px;
+	margin: 0 0 -50px 200px !important;
 	/* border-radius: 50%; */
 	width: 500px;
 	height: 500px;
+	
 }
 
 .about-container {
 	margin-top: 100px;
+	
 }
 
 .about-animated {
@@ -356,8 +389,45 @@ body {
 }
 
 .personal-description {
-	font-size: 3rem;
-	color: #95453a;
+	font-size: 2.75rem;
+	color: black;
+	
+}
+
+.about-content {
+	position: absolute !important;
+	left: 15%;
+	top: 550px;
+	width: 50%;
+	background-color: white !important;
+
+}
+
+
+@media (max-width: 1200px) {
+	.about-content {
+		position: static !important;
+		width: 100%;
+	}
+
+	#profile-photo {
+		display: block;
+		margin: 50px 0 0 0 !important;
+
+	}
+}
+
+/* Portfolio */
+.flex-display {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media (max-width: 1200px) {
+	.flex-display {
+		/* width: 800px; */
+		}
 }
 
 /* Flip Card */
@@ -409,7 +479,7 @@ body {
 }
 
 .flip-card-back {
-	background-color: #B9594B;
+	background-color: #2079c7;
 	color: white;
 	transform: rotateY(180deg);
 	padding: 20px;
@@ -482,17 +552,17 @@ h3, label {
 }
 
 .forgot-password a {
-	color: #B9594B;
+	color: #2079c7;
 }
 
 .btn-primary {
 	color: #fff;
 	border-color: none !important;
-	background-color: #B9594B;
+	background-color: #2079c7;
 }
 
 .btn-primary:hover {
-	background-color: #95453a;
+	background-color: #16548b;
 }
 
 .contact-title {
@@ -527,3 +597,8 @@ h3, label {
 	padding: 1px;
 }
 
+@media (max-width: 1000px) {
+	.content {
+		margin: 0 !important;
+	}
+}
